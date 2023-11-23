@@ -220,7 +220,7 @@ header {
   .section-services-content .box-container {
     margin-top: -20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 
     .box {
@@ -417,5 +417,29 @@ footer {
     p {
       font-size: 14px;
     }
+  }
+
+  .section-services-content .box-container {
+    grid-template-columns: 1fr;
+
+    .box {
+      padding: auto;
+      max-width: fit-content;
+    }
+  }
+  .section-details {
+    margin-top: -100px; /* Adjust the margin for smaller screens */
+    img {
+      padding: auto;
+      width: 100%;
+    }
+  }
+
+  .card-details {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .card-information {
+    min-height: 150px; /* Adjust min-height for smaller screens */
   }
 }

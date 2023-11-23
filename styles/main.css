@@ -197,7 +197,7 @@ header p {
 .section-services .section-services-content .box-container {
   margin-top: -20px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 .section-services .section-services-content .box-container .box {
@@ -366,5 +366,27 @@ footer p {
   }
   .section-vehicles p {
     font-size: 14px;
+  }
+  .section-services-content .box-container {
+    grid-template-columns: 1fr;
+  }
+  .section-services-content .box-container .box {
+    padding: auto;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .section-details {
+    margin-top: -100px; /* Adjust the margin for smaller screens */
+  }
+  .section-details img {
+    padding: auto;
+    width: 100%;
+  }
+  .card-details {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+  .card-information {
+    min-height: 150px; /* Adjust min-height for smaller screens */
   }
 }/*# sourceMappingURL=main.css.map */
